@@ -81,7 +81,7 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 /*eman's color changes*/
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", s_base03, "-nf", s_base0, "-sb", s_base2, "-sf", s_base0, NULL };
 static const char *termcmd[]  = { "alacritty", NULL };//alacritty-ligatures-git
-static const char *firefoxcmd[]  = { "firefox", "-p" };
+static const char *firefoxcmd[]  = { "firefox", "-p" , NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
